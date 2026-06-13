@@ -46,7 +46,7 @@ function showToast(msg) {
 
 // ── QR CODE GENERATION ────────────────────────────
 // IMPORTANT: Replace this with YOUR live Vercel URL after deployment!
-const WEBSITE_URL = "https://balaji-motors.vercel.app";
+const WEBSITE_URL = "https://balaji-motors-kappa.vercel.app/";
 
 window.addEventListener('DOMContentLoaded', () => {
   // QR Code in QR Section
