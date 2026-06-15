@@ -270,7 +270,12 @@ section { padding: 60px 24px; }
 
 /* ── ABOUT ───────────────────────────────────── */
 #about { background: var(--cream); }
-.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+.about-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 48px; 
+  align-items: start;
+}
 .about-img-box {
   background: var(--white);
   border: 2px solid var(--border);
@@ -314,7 +319,11 @@ section { padding: 60px 24px; }
 
 /* ── BRANCHES ────────────────────────────────── */
 #branches { background: var(--white); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-.branches-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.branches-grid { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px; 
+}
 .branch-card {
   background: var(--cream);
   border: 2px solid var(--border);
@@ -578,7 +587,7 @@ footer {
 /* ── RESPONSIVE ──────────────────────────────── */
 @media (max-width: 768px) {
   .hero-stats { flex-direction: row; justify-content: center; flex-wrap: wrap; }
-  .about-grid, .contact-grid, .branches-grid { grid-template-columns: 1fr; gap: 24px; }
+  .about-grid, .contact-grid, .branches-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
   .header-inner { padding: 10px 14px; }
   .header-text h1 { font-size: 1.2rem; }
   section { padding: 40px 16px; }
